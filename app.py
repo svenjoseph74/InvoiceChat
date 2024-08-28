@@ -2,6 +2,7 @@ import streamlit as st
 import re
 import pymupdf
 
+#First test of the chatbot
 st.header("Billinator Chatbot")
 
 if "payExtra" not in st.session_state:
